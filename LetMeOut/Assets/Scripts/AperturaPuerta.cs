@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class AperturaPuerta : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Animator anim;
+    
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.tag == "Key")
+        {
+            anim.Play("Puerta 0");
+        }
     }
 }

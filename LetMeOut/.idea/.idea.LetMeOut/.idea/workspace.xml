@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2a6045b-c8ce-4826-a485-a7f528ed4853" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cube_002.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Cube_002.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Puerta.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Puerta.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AperturaPuerta.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AperturaPuerta.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e2a6045b-c8ce-4826-a485-a7f528ed4853" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676479057999</updated>
-      <workItem from="1676479060923" duration="870000" />
+      <workItem from="1676479060923" duration="874000" />
     </task>
     <servers />
   </component>

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Key
   - PuertaPrincipal
+  - Light
+  - Bullet
+  - Bacteria
+  - Victoria
   layers:
   - Default
   - TransparentFX

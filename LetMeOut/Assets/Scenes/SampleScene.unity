@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17854817, g: 0.22356462, b: 0.30553535, a: 1}
+  m_IndirectSpecularColor: {r: 0.17854872, g: 0.22356537, b: 0.30553615, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -803,7 +803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.323
+      value: 1.016
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1228,24 +1228,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1044456559 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: d8bde1dd8e63c4646af8dd96fd5a9043, type: 3}
-  m_PrefabInstance: {fileID: 886046787}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1044456563
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044456559}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 178.89522, y: 5.1763835, z: 1.2258036}
-  m_Center: {x: -22.841879, y: -1.5881917, z: -0.387098}
 --- !u!4 &1085400648 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 477154, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}

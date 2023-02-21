@@ -23,7 +23,7 @@ public class Impacto : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Bacteria")
+        if (other.gameObject.tag == "Bullet")
         {
             Impacticado = true;
         }

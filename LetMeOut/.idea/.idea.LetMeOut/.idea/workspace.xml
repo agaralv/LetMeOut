@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e2a6045b-c8ce-4826-a485-a7f528ed4853" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LetMeOut/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LetMeOut/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animator Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/New Animator Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Rumba.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Rumba.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AperturaPuerta.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AperturaPuerta.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Impacto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Impacto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PulsacionBoton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PulsacionBoton.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +90,7 @@
       <updated>1676479057999</updated>
       <workItem from="1676479060923" duration="870000" />
       <workItem from="1676909310809" duration="4588000" />
+      <workItem from="1677081457428" duration="2803000" />
     </task>
     <servers />
   </component>

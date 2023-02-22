@@ -7,28 +7,21 @@ public class PulsacionBoton : MonoBehaviour
 {
     private Animator anim;
     private bool Pulsado = false;
-    GameObject Text;
+    private GameObject Panel;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        Text = GameObject.FindWithTag("Victoria");
+        Panel = GameObject.FindWithTag("Victoria");
+        Panel.SetActive(false);
     }
 
-    private void Update()
-    {
-        if (Pulsado == true)
-        {
-            Text.SetActive(true);
-        }
-    }
-    
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
             anim.Play("Pulsacion");
-            Pulsado = true;
+            Panel.SetActive(true);
         }
     }
 }

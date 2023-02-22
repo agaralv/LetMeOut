@@ -6,7 +6,6 @@ using UnityEngine;
 public class PulsacionBoton : MonoBehaviour
 {
     private Animator anim;
-    private bool Pulsado = false;
     private GameObject Panel;
 
     void Start()

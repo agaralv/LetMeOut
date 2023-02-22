@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e2a6045b-c8ce-4826-a485-a7f528ed4853" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LetMeOut/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LetMeOut/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Impacto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Impacto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PulsacionBoton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PulsacionBoton.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +89,7 @@
       <workItem from="1677081457428" duration="2803000" />
       <workItem from="1677084695835" duration="403000" />
       <workItem from="1677085133806" duration="11000" />
+      <workItem from="1677085236137" duration="820000" />
     </task>
     <servers />
   </component>

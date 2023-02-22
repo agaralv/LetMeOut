@@ -6,7 +6,6 @@ using UnityEngine;
 public class Impacto : MonoBehaviour
 {
     private Animator anim;
-    private bool Impacticado = false;
     private GameObject Bacteria;
     private BoxCollider boxCollider;
 

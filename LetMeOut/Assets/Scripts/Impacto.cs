@@ -8,12 +8,12 @@ public class Impacto : MonoBehaviour
     private Animator anim;
     private bool Impacticado = false;
     private GameObject Bacteria;
-    private BoxCollider2D boxCollider2D;
+    private BoxCollider boxCollider;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        boxCollider2D = GetComponent<BoxCollider2D>();
+        boxCollider = GetComponent<BoxCollider>();
         Bacteria = GameObject.FindWithTag("Bacteria");
     }
 
@@ -22,7 +22,7 @@ public class Impacto : MonoBehaviour
         if (other.gameObject.tag == "Bullet")
         {
             anim.Play("ZombieDeath");
-            boxCollider2D.enabled = false;
+            boxCollider.enabled = false;
         }
     }
 }

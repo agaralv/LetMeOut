@@ -10,6 +10,7 @@ public class Shoot : MonoBehaviour
 
     private void Update()
     {
+        //Mano izquerda y derecha
         if (GetComponent<OVRGrabbable>().isGrabbed)
         if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger) || OVRInput.Get(OVRInput.Button.PrimaryHandTrigger))
             if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger) || OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))

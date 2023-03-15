@@ -11,8 +11,8 @@ public class Shoot : MonoBehaviour
     private void Update()
     {
         if (GetComponent<OVRGrabbable>().isGrabbed)
-        if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger))
-            if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
+        if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger) || OVRInput.Get(OVRInput.Button.PrimaryHandTrigger))
+            if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger) || OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
         {
             Instantiate(bullet, shootPoint.position, shootPoint.rotation).GetComponent<Rigidbody>().AddForce(shootPoint.forward * shootForce);
         }

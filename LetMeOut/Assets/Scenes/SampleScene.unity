@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17854872, g: 0.22356537, b: 0.30553615, a: 1}
+  m_IndirectSpecularColor: {r: 0.17854817, g: 0.22356462, b: 0.30553535, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1002,6 +1002,27 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   sortOrder: 0
+--- !u!1 &469245101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100008, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+  m_PrefabInstance: {fileID: 469245098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &469245102
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469245101}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
 --- !u!4 &496043624 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 481164, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
@@ -3308,6 +3329,7 @@ GameObject:
   - component: {fileID: 1394638126}
   - component: {fileID: 1394638128}
   - component: {fileID: 1394638127}
+  - component: {fileID: 2050809773916776445}
   m_Layer: 0
   m_Name: puerta marron
   m_TagString: PuertaPrincipal
@@ -3503,6 +3525,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281855665239786644}
   m_Mesh: {fileID: 8552134717624371188, guid: d8bde1dd8e63c4646af8dd96fd5a9043, type: 3}
+--- !u!65 &2050809773916776445
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281855665239786644}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.935196, y: 9.78427, z: 1.1473491}
+  m_Center: {x: -0.8154821, y: -0.0000148911695, z: 0.066535324}
 --- !u!1 &2076850631216835634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4032,6 +4067,7 @@ GameObject:
   - component: {fileID: 1995402455}
   - component: {fileID: 1995402460}
   - component: {fileID: 1995402464}
+  - component: {fileID: 8544783547671701391}
   m_Layer: 0
   m_Name: Puerta roja
   m_TagString: PuertaPrincipal
@@ -4148,6 +4184,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8544783547671701391
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416272008668692902}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9351958, y: 9.784271, z: 1.147349}
+  m_Center: {x: -0.81548196, y: 0.00000040939025, z: 0.06653526}
 --- !u!23 &8567717000237160225
 MeshRenderer:
   m_ObjectHideFlags: 0
